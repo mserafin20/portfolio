@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.text-right{
+    text-align: right;
+}
+
+section{
+    display: flex;
+}
+
+aside{
+    width: 33%;
+    border-right: red 5px solid;
+    min-height: 400px;
+    text-align: right;
+}
