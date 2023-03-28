@@ -1,27 +1,62 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    display: flex;
+    background-color: white;
 }
 
-.name-header{
+main{
+    background-color: aqua;
+    width: 100%;
+    height: 100px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-left: 5%;
-    margin-top: 2%;
-    font-size: 32px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    color: rgb(0, 119, 255) 
+    color: rgb(0, 119, 255);
+} 
+
+h1{
+    font-size: 230%;
 }
 
-.nav-right{
-    text-align: right;
-    margin-right: 2%;
-    align-items: flex-end;
+nav{
+    display: block;
 }
 
-.aside-text{
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    
+}
+
+a{
+    font: 500%;
+}
+
+
+
+/* .aside-about-me{
     width: 20%;
     border-right: rgb(0, 68, 255) 5px solid;
-    min-height: 700px;
+    min-height: 100px;
     text-align: right;
     padding: 15px;
 }
+
+.aside-work{
+    width: 20%;
+    border-right: rgb(0, 68, 255) 5px solid;
+    border-top: 15px;
+    max-height: 100px;
+    text-align: right;
+    padding: 15px;
+   
+} */
