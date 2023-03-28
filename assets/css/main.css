@@ -3,17 +3,25 @@
     padding:0;
 }
 
-.text-right{
-    text-align: right;
+.name-header{
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 119, 255) 
 }
 
-section{
-    display: flex;
+.nav-right{
+    text-align: right;
+    margin-right: 2%;
+    align-items: flex-end;
 }
 
-aside{
-    width: 33%;
-    border-right: red 5px solid;
-    min-height: 400px;
+.aside-text{
+    width: 20%;
+    border-right: rgb(0, 68, 255) 5px solid;
+    min-height: 700px;
     text-align: right;
+    padding: 15px;
 }
