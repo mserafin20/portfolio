@@ -30,31 +30,41 @@ header nav ul{
    list-style-type: none; 
 }
 
-header nav ul li{
+header nav ul a{
     display: inline-block;
+    border: 10px;
     margin-left: 20px;
+    color: #ffffff;
 }
 
-a{
-    font: 500%;
+aside{
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
 }
-
-
 
 .aside-about-me{
     width: 20%;
-    border-right: rgb(0, 68, 255) 5px solid;
-    min-height: 100px;
+    border-right: #2a607c 5px solid;
+    min-height: 150px;
     text-align: right;
     padding: 15px;
 }
 
 .aside-work{
     width: 20%;
-    border-right: rgb(0, 68, 255) 5px solid;
+    border-right: red 5px solid;
     border-top: 15px;
-    max-height: 100px;
+    min-height: 650px;
+    text-align: right;
+    padding: 15px;  
+} 
+
+.aside-contact-me{
+    width: 20%;
+    border-right: purple 5px solid;
+    border-top: 15px;
+    min-height: 100px;
     text-align: right;
     padding: 15px;
-   
-} 
+}
