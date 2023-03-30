@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
 .body{
     background-color: white;
 }
@@ -10,7 +14,6 @@
 /* Header and Navigation section */
 header{
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 } 
@@ -91,22 +94,68 @@ aside{
 .work-1{
     flex-basis: 100%;
     min-height: 300px;
+    margin: 10px;
+    align-items: flex-end;
+    padding: 15px;
 }
 
+.work-2{
+    flex-basis: 45%;
+    margin: 10px;
+    align-items: flex-end;
+    padding: 15px;
+}
+
+.work-3{
+    flex-basis: 45%;
+    margin: 10px;
+    align-items: flex-end;
+    padding: 15px;
+}
+
+.work-4{
+    flex-basis: 45%;
+    margin: 10px;
+    align-items: flex-end;
+    padding: 15px;
+}
+
+.work-5{
+    flex-basis: 45%;
+    margin: 10px;
+    align-items: flex-end;
+    padding: 15px;
+}
 .aside-work{
     width: 20%;
-    border-right: red 5px solid;
+    border-right: #2a607c 5px solid;
     border-top: 15px;
     min-height: 650px;
     text-align: right;
     padding: 15px;  
 } 
 
+/* Contact Me section */
+.contact-me{
+    display: flex;
+}
+
+.contact-me-body{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: underline;
+    width: 78%;
+    margin: 15px;
+    padding: 25px;
+}
+
 .aside-contact-me{
     width: 20%;
-    border-right: purple 5px solid;
-    border-top: 15px;
-    min-height: 100px;
+    border-right: #2a607c 5px solid;
+    min-height: 150px;
     text-align: right;
     padding: 15px;
+    margin-top: 15px;
 }
