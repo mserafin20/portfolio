@@ -103,12 +103,17 @@ aside{
     flex-basis: 75%;
 }
 
+.flex-item:hover{
+    border-style: groove;
+    cursor: grab;
+}
+
 .flex-item{
     display: flex;
     min-height: 150px;
     flex-basis: 50%;
     border: 5px solid var(--accent-clr);
-    background-image: url(./images/Screenshot\ 2023-03-23\ 182306.png);
+    /* background-image: url(./images/Screenshot\ 2023-03-23\ 182306.png); */
     background-position: top;
 }
 
@@ -118,6 +123,9 @@ aside{
     margin: 10px;
     align-items: flex-end;
     padding: 15px;
+    background-image: url(./images/screenshot-1.png);
+    background-position: center;
+    color: #ffffff;
 }
 
 .work-2{
