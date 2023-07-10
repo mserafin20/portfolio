@@ -143,6 +143,9 @@ aside{
     margin: 10px;
     align-items: flex-end;
     padding: 15px;
+    background-image: url(./images/Project\ 2\ -\ CarFix.png);
+    background-position: center;
+    color: #ffffff;
 }
 .aside-work{
     width: 20%;
